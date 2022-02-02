@@ -1,2 +1,10 @@
 # sta-2453-project-1
 Repository for Scripts Related to STA-2453 Project 1
+
+Toronto Condo Sales Price Analysis
+
+The aim of this project is to gain insight on the Toronto property market. Property values in Toronto vary in many different ways, based upon the features of each building, the location of each listing, and many other complicated factors. This relationship has a pretty dramatic effect on life in the city - affecting not just the individual purchasing decisions of buyers but by extension rental prices and often major public policy decisions. We wish to obtain an understanding of this relationship, and model the value of property listings based upon all these different characteristics. 
+
+We will focus our analysis specifically on condominium and apartment listings. These make up the bulk of property listings in the Toronto municipal area and have plentiful and easily accessible data sources compared to other properties such as detached houses. Moreover, it seems to be a fair assumption that the relationships behind property values will vary significantly based upon the type of property so focusing on condos will simplify modelling drastically. 
+
+Properties across the city of Toronto are priced in various ways, based on different factors. Condominiums in particular are priced in very complicated ways because of the many different sizes, configurations and locations of units. In this project we will analyze the drivers of condo prices by scraping listings from an online resource and building models to predict said prices. We find that a simple linear regression model based on only a few features such as number of bedrooms/bathrooms, annual maintenance fees, and community amenities perform just as well on testing metrics as more complicated linear and random forest models using many features. We also find a strong association between the location of a given listing and it's asking price, confirming that geographical location has a notable effect on property values. 
